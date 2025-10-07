@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE Subtarea1 [ 
+
+<!ELEMENT Subtarea1 (Oferta)> 
+
+<!ELEMENT Oferta (Nombre , Puesto , Funciones , Requisitos , Condiciones , Palabras_clave , Habilidades_y_competencias , Empresa_y_proyecto , Palabras_clave_3)> 
+
+<!ATTLIST Oferta URL CDATA #REQUIRED> 
+
+<!ELEMENT Nombre (#PCDATA)> 
+
+<!ELEMENT Puesto (#PCDATA)> 
+
+<!ELEMENT Funciones (#PCDATA)> 
+
+<!ELEMENT Requisitos (Estudios , Experiencia , Conocimientos)> 
+
+<!ELEMENT Estudios (#PCDATA)> 
+
+<!ELEMENT Experiencia (#PCDATA)> 
+
+<!ELEMENT Conocimientos (Lenguaje+ , Entorno_de_desarrollo)> 
+
+<!ELEMENT Lenguaje (#PCDATA)> 
+
+<!ELEMENT Entorno_de_desarrollo (#PCDATA)> 
+
+<!ELEMENT Condiciones (Contrato , Jornada , Sueldo)> 
+
+<!ELEMENT Contrato (#PCDATA)> 
+
+<!ELEMENT Jornada (#PCDATA)> 
+
+<!ELEMENT Sueldo (#PCDATA)> 
+
+<!ELEMENT Palabras_clave (Palabra_clave)+> 
+
+<!ELEMENT Palabra_clave (#PCDATA)> 
+
+<!ELEMENT Habilidades_y_competencias (Conocimiento)+> 
+
+<!ELEMENT Conocimiento (#PCDATA)> 
+
+<!ELEMENT Empresa_y_proyecto (Nombre , Proyecto)> 
+
+<!ELEMENT Proyecto (#PCDATA)> 
+
+<!ELEMENT Palabras_clave_3 (Palabra_clave)+> 
+
+]> 
+
+  
+
+<Subtarea1> 
+
+  <Oferta URL="https://www.infojobs.net/madrid/desarrolladores-aplicaciones-para-sector-financiero/of-i6f05a3cf834637b6b78b6bff635254?applicationOrigin=search-new&amp;page=1&amp;sortBy=RELEVANCE"> 
+
+    <Nombre>Desarrolladores de Aplicaciones para el Sector Financiero</Nombre> 
+
+    <Puesto>Programador</Puesto> 
+
+    <Funciones>Desarrollo de aplicaciones punteras para el sector financiero en entornos windows, web y móvil.</Funciones> 
+
+    <Requisitos> 
+
+      <Estudios>Ciclo Formativo Grado</Estudios> 
+
+      <Experiencia>Ninguna</Experiencia> 
+
+      <Conocimientos> 
+
+        <Lenguaje>C/C++</Lenguaje> 
+
+        <Lenguaje>C#</Lenguaje> 
+
+        <Lenguaje>.NET</Lenguaje> 
+
+        <Lenguaje>SQL</Lenguaje> 
+
+        <Lenguaje>HTML5</Lenguaje> 
+
+        <Lenguaje>Javascript</Lenguaje> 
+
+        <Lenguaje>CSS</Lenguaje> 
+
+        <Lenguaje>Python</Lenguaje> 
+
+        <Entorno_de_desarrollo>Visual Studio</Entorno_de_desarrollo> 
+
+      </Conocimientos> 
+
+    </Requisitos> 
+
+    <Condiciones> 
+
+      <Contrato>Indefinido</Contrato> 
+
+      <Jornada>Completa</Jornada> 
+
+      <Sueldo>Entre 18.000€ - 28.000€</Sueldo> 
+
+    </Condiciones> 
+
+    <Palabras_clave> 
+
+      <Palabra_clave>Sin experiencia</Palabra_clave> 
+
+      <Palabra_clave>Presencial</Palabra_clave> 
+
+      <Palabra_clave>Ciclo formativo grado</Palabra_clave> 
+
+      <Palabra_clave>Usar visual studio</Palabra_clave> 
+
+      <Palabra_clave>Conocimiento C, web, Python y SQL</Palabra_clave> 
+
+    </Palabras_clave> 
+
+    <Habilidades_y_competencias> 
+
+      <Conocimiento>C/C++</Conocimiento> 
+
+      <Conocimiento>C#</Conocimiento> 
+
+      <Conocimiento>.NET</Conocimiento> 
+
+      <Conocimiento>SQL</Conocimiento> 
+
+      <Conocimiento>HTML5</Conocimiento> 
+
+      <Conocimiento>Jquery</Conocimiento> 
+
+      <Conocimiento>Javascript</Conocimiento> 
+
+      <Conocimiento>CSS3</Conocimiento> 
+
+      <Conocimiento>JSON</Conocimiento> 
+
+      <Conocimiento>XML</Conocimiento> 
+
+      <Conocimiento>Python</Conocimiento> 
+
+    </Habilidades_y_competencias> 
+
+    <Empresa_y_proyecto> 
+
+      <Nombre>UNIDESYS FINANCIAL TECH SL.</Nombre> 
+
+      <Proyecto>Consultoría y desarrollo de software para el sector financiero</Proyecto> 
+
+    </Empresa_y_proyecto> 
+
+    <Palabras_clave_3> 
+
+      <Palabra_clave>Visual studio</Palabra_clave> 
+
+      <Palabra_clave>Full stack</Palabra_clave> 
+
+      <Palabra_clave>Presencial</Palabra_clave> 
+
+    </Palabras_clave_3> 
+
+  </Oferta> 
+
+</Subtarea1> 
