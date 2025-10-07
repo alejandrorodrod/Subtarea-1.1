@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 
-<!DOCTYPE Subtarea1 [ 
+<!DOCTYPE Subtarea1.1 [ 
 
-<!ELEMENT Subtarea1 (Oferta)> 
+<!ELEMENT Subtarea1.1 (Oferta)> 
 
 <!ELEMENT Oferta (Nombre , Puesto , Funciones , Requisitos , Condiciones , Palabras_clave , Habilidades_y_competencias , Empresa_y_proyecto , Palabras_clave_3)> 
 
@@ -52,7 +52,7 @@
 
   
 
-<Subtarea1> 
+<Subtarea1.1> 
 
   <Oferta URL="https://www.infojobs.net/madrid/desarrolladores-aplicaciones-para-sector-financiero/of-i6f05a3cf834637b6b78b6bff635254?applicationOrigin=search-new&amp;page=1&amp;sortBy=RELEVANCE"> 
 
@@ -163,5 +163,6 @@
   </Oferta> 
 
 
-</Subtarea1> 
+</Subtarea1.1> 
+
 
