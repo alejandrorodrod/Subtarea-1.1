@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 
-<!DOCTYPE Subtarea1.1 [ 
+<!DOCTYPE Subtarea1 [ 
 
 <!ELEMENT Subtarea1 (Oferta)> 
 
@@ -52,7 +52,7 @@
 
   
 
-<Subtarea1.1> 
+<Subtarea1> 
 
   <Oferta URL="https://www.infojobs.net/madrid/desarrolladores-aplicaciones-para-sector-financiero/of-i6f05a3cf834637b6b78b6bff635254?applicationOrigin=search-new&amp;page=1&amp;sortBy=RELEVANCE"> 
 
@@ -163,4 +163,5 @@
   </Oferta> 
 
 
-</Subtarea1.1> 
+</Subtarea1> 
+
